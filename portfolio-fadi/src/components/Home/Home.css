@@ -1,0 +1,54 @@
+#home {
+  background: url("./images/personal.jpg") no-repeat top center;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  color: rgb(41, 39, 39);
+  height: 100vh;
+
+  /* background-color: rgba(0, 0, 0, 0.51); */
+  z-index: -1;
+}
+
+#home:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0);
+  opacity: 0.9;
+}
+.typed{
+  margin-top: 50px;
+}
+.dev-name {
+  font-family: "Playfair Display", serif;
+  z-index: 999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 62px;
+  font-weight: 500;
+  color: #fff;
+}
+.home-text {
+  font-family: "Playfair Display", serif;
+  opacity: 1;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.dev-surname {
+  font-family: "Playfair Display", serif;
+  color: #1ab394;
+  font-weight: 900;
+}
+@media only screen and (max-width: 768px) {
+  #home {
+    width: 100%;
+  }
+}

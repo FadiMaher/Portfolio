@@ -1,0 +1,17 @@
+.resume-title {
+
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+
+  }
+.sk1 li{
+  display: inline-flex;
+  margin-left: 40px;
+}
+
+.sk1{
+  margin-bottom: 120px;
+}
+.sk2 li{
+  display: inline-flex;
+  margin-left: 40px;
+}

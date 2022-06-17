@@ -1,0 +1,7 @@
+.about-title {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+  
+}
+.about-title h1{
+  text-transform: none !important;
+}
